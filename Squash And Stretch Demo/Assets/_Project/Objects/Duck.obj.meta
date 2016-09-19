@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 8c52f1cc37fcf9b43a8644ece5a534ec
-timeCreated: 1474229907
+guid: 2f5ca8587e50f44499e61dbcbc114020
+timeCreated: 1474318253
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Duck_SnSHandle
-    100002: //RootNode
-    400000: Duck_SnSHandle
-    400002: //RootNode
+    100000: //RootNode
+    100002: Duck_SnSHandle
+    400000: //RootNode
+    400002: Duck_SnSHandle
     2300000: Duck_SnSHandle
     3300000: Duck_SnSHandle
     4300000: Duck_SnSHandle
