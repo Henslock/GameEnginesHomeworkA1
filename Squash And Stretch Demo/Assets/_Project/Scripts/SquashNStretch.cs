@@ -4,7 +4,7 @@ using System.Collections;
 public class SquashNStretch : MonoBehaviour
 {
     /*
-    Squash and Stretch - Range between 0 and 2
+    Squash and Stretch - Scale between 0 and 3
     Parent the script to a game object handle with a normalized scale.
 
     Josh Bellyk - 100526009
@@ -16,7 +16,10 @@ public class SquashNStretch : MonoBehaviour
 
 	void Start ()
     {
-        float modVal = (1.0f - ((Factor - 1.0f)/(2/InfluenceModifier)));
+        float divideFactor = (2.0f / InfluenceModifier);
+        if(InfluenceModifier==0) { divideFactor = 1; };
+
+        float modVal = (1.0f - ((Factor - 1.0f)/(divideFactor)));
 
         transform.localScale = new Vector3(
             transform.localScale.x * modVal,
