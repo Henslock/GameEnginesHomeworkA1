@@ -31,8 +31,8 @@ public class SnSAnim : MonoBehaviour
         p1 = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z);
         p2 = new Vector3(transform.localPosition.x, transform.localPosition.y + jumpHeight, transform.localPosition.z);
 
-        m2 = new Vector3(1.0f * SquishFactor, 1.0f / SquishFactor, 1.0f *SquishFactor);
-        m3 = new Vector3(1.0f / SquishFactor, 1.0f * SquishFactor, 1.0f / SquishFactor);
+        m2 = new Vector3(1.1f * SquishFactor, 0.9f / SquishFactor, 1.1f *SquishFactor);
+        m3 = new Vector3(0.9f / SquishFactor, 1.1f * SquishFactor, 0.9f / SquishFactor);
     }
 
     void Update()
